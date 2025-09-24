@@ -1,9 +1,9 @@
 public class LlibreFisic extends Llibre{
     private String isbn;
-    private boolean ejemplares;
+    private int ejemplares;
 
 
-    public LlibreFisic(String isbn, boolean ejemplares, String autor, String titulo, int anyoPublicacion){
+    public LlibreFisic(String isbn, int ejemplares, String autor, String titulo, int anyoPublicacion){
         super(autor, anyoPublicacion, titulo);
         this.isbn = isbn;
         this.ejemplares = ejemplares;

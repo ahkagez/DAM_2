@@ -7,6 +7,9 @@ public class Main{
 
         calcularPrecio(fechaInicio, fechaFin);
 
+        String mensaje = "hola";
+        mensaje.
+
     }
 
     public static void calcularPrecio(LocalDate fechaInicio, LocalDate fechaFin){

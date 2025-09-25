@@ -21,4 +21,8 @@ public class LlibreFisic extends Llibre{
                 ", disponible=" + ejemplares +
                 '}';
     }
+
+    public int getEjemplares() {
+        return ejemplares;
+    }
 }

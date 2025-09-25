@@ -11,7 +11,7 @@ public class LlibreDigital extends Llibre{
 
     @Override
     public double tarifabase() {
-        return 0;
+        return 1;
     }
 
     @Override
@@ -20,5 +20,9 @@ public class LlibreDigital extends Llibre{
                 "isbn='" + isbn + '\'' +
                 ", disponible=" + disponible +
                 '}';
+    }
+
+    public boolean isDisponible() {
+        return disponible;
     }
 }

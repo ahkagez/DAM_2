@@ -1,2 +1,29 @@
-public class RepositorioPrestamos {
+import java.util.List;
+
+public class RepositorioPrestamos implements PrestamoPersistencia{
+    public List<Prestamo> getPrestamos() {
+        return prestamos;
+    }
+
+    private List<Prestamo> prestamos;
+
+    @Override
+    public boolean registrarPrestamo(Prestamo prestamo) {
+        if(!this.prestamos.contains(prestamo)){
+            this.prestamos.add(prestamo);
+            return true;
+        }
+
+        return false;
+    }
+
+    @Override
+    public boolean cancelarPrestamo(Prestamo prestamo) {
+        if(this.prestamos.contains(prestamo)){
+            this.prestamos.remove(prestamo);
+            return true;
+        }
+
+        return false;
+    }
 }

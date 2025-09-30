@@ -10,12 +10,22 @@ public class RepositorioUsuarios implements UsuarioPersistencia{
 
     @Override
     public boolean altaUsuario(Usuario usuario) {
-        this.usuarios.add(usuario);
-        return true;
+        if (this.usuarios.contains(usuario)){
+            return false;
+        } else {
+            this.usuarios.add(usuario);
+            return true;
+        }
     }
 
     @Override
     public boolean bajaUsuario(Usuario usuario) {
+
+        if (this.usuarios.contains(usuario)){
+            this.usuarios.remove(usuario);
+            return true;
+        }
+
         return false;
     }
 }

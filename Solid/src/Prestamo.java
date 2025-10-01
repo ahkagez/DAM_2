@@ -16,8 +16,18 @@ public class Prestamo implements CalcularPrecio {
     }
 
 
+
+
     @Override
     public double calcularPrecio() {
         return 0;
+    }
+
+    public Prestable getRecurso() {
+        return recurso;
+    }
+
+    public boolean isDevuelto() {
+        return devuelto;
     }
 }

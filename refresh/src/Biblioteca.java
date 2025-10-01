@@ -1,13 +1,16 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
-public class Biblioteca <T> {
+public class Biblioteca {
     private Set<Recursos> recursos;
     private Map<String, Usuario> usuarios;
     private List<Prestamo> prestamo;
 
-    public Biblioteca() {
-        this.recursos = new HashSet<>();
-        this.usuarios = new HashMap<>();
+    public Biblioteca(Set<Recursos> recursos, Map<String, Usuario> usuarios) {
+        this.recursos = recursos;
+        this.usuarios = usuarios;
         this.prestamo = new ArrayList<>();
     }
 
@@ -16,32 +19,12 @@ public class Biblioteca <T> {
         return true;
     }
 
-    public boolean comprobarDisponibilidad(Recursos recurso1){
-        if( recurso1.getClass() == LlibreDigital.class ){
-            LlibreDigital llibreDigital = (LlibreDigital) recurso1;
-            return llibreDigital.isDisponible();
-        }
-        if( recurso1.getClass() == LlibreFisic.class ){
-            LlibreFisic llibreFisic = (LlibreFisic) recurso1;
-            if(llibreFisic.getEjemplares() > 0){
-                return true;
-            } else {
-                return false;
-            }
-        }
+    public boolean comprobarDisponibilidad(Recursos recursos){
+
         return false;
     }
 
     public boolean contenidoRecurso(Recursos recursos){
         return false;
-    }
-
-    @Override
-    public String toString() {
-        return "Biblioteca{" +
-                "recursos=" + recursos +
-                ", usuarios=" + usuarios +
-                ", prestamo=" + prestamo +
-                '}';
     }
 }

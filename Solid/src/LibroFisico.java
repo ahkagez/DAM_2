@@ -1,3 +1,7 @@
+import java.util.Collections;
+import java.util.List;
+import java.util.Objects;
+
 public class LibroFisico extends Libro{
     private String isbn;
     private int ejemplares;
@@ -16,8 +20,36 @@ public class LibroFisico extends Libro{
 
     @Override
     public boolean isDisponible(RepositorioPrestamos repositorioPrestamos) {
-        if(this.ejemplares > 0) return true;
-        
+
+        if(this.ejemplares > 0) {
+
+            List<Prestamo> lista = repositorioPrestamos.getPrestamos();
+
+            if( lista.contains(this) == false){
+                return true;
+            }
+            
+            int contador = 0;
+            for (int i = 0; i < lista.size(); i++) {
+                Prestamo prestamo = lista.get(i);
+                if(equals(prestamo.getRecurso())){
+                    if(!prestamo.isDevuelto()){
+                        contador++;
+                    }
+                }
+            }
+
+            return this.ejemplares > contador;
+
+        }
         return false;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        LibroFisico that = (LibroFisico) o;
+        return Objects.equals(isbn, that.isbn);
     }
 }

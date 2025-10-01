@@ -1,9 +1,6 @@
 import java.util.List;
 
 public class RepositorioPrestamos implements PrestamoPersistencia{
-    public List<Prestamo> getPrestamos() {
-        return prestamos;
-    }
 
     private List<Prestamo> prestamos;
 
@@ -25,5 +22,9 @@ public class RepositorioPrestamos implements PrestamoPersistencia{
         }
 
         return false;
+    }
+
+    public List<Prestamo> getPrestamos() {
+        return prestamos;
     }
 }

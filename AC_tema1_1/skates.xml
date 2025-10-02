@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<skates>
+        
+    <skate id="1">
+                
+        <tipo>Estándar</tipo>
+                
+        <descripcion>Skate tradicional usado siempre para hacer trucos</descripcion>
+                
+        <ruedas>Duras</ruedas>
+                
+        <uso>Trucos Calle</uso>
+            
+    </skate>
+        
+    <skate id="2">
+                
+        <tipo>Cruiser</tipo>
+                
+        <descripcion>Tabla compacta, adecuada para llevarla y moverte por ciudad</descripcion>
+                
+        <ruedas>Blandas</ruedas>
+                
+        <uso>Transporte corta distancia</uso>
+            
+    </skate>
+        
+    <skate id="3">
+                
+        <tipo>Longboard</tipo>
+                
+        <descripcion>Diseñada para Cruising y actividades Downhill</descripcion>
+                
+        <ruedas>Blandas</ruedas>
+                
+        <uso>Downhill</uso>
+            
+    </skate>
+    
+    <Skate id="4">
+        <Tipo>Surfing</Tipo>
+        <Descripcion>hola</Descripcion>
+        <Ruedas>Blandas</Ruedas>
+        <Uso>Transporte</Uso>
+    </Skate>
+</skates>

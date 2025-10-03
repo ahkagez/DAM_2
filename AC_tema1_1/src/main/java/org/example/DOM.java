@@ -45,7 +45,7 @@ public class DOM {
         data[0] = node.getAttributes().item(0).getNodeValue();
 
         nList = node.getChildNodes();
-        for (int i=0; i<nList.getLength(); i++) {
+        for (int i=0; i < nList.getLength(); i++) {
             nTemp = nList.item(i);
 
             if (nTemp.getNodeType() == Node.ELEMENT_NODE) {

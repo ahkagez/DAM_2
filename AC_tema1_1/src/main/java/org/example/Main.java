@@ -10,7 +10,7 @@ public class Main {
 
         DOM dom = new DOM();
         dom.abrirXMLconDOM(file);
-        dom.anadirDom("Surfing", "hola", "Blandas", "Transporte", "4");
-        dom.guardarDOM(file);
+
+        System.out.println(dom.mostrarDOM());
     }
 }

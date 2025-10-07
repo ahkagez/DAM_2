@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9152b847-ac5e-4ce8-8f3d-0ee61443373a" name="Changes" comment="" />
+    <list default="true" id="7ab6f99e-5577-49e8-9cfe-4a3d61048da5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,30 +14,30 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="33BnvJY3YSvEN7ihyPINxf8MP4c" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="33jfui0p7isVYDxdhZQE0boIeFn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,20 +49,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9152b847-ac5e-4ce8-8f3d-0ee61443373a" name="Changes" comment="" />
-      <created>1758799561619</created>
+      <changelist id="7ab6f99e-5577-49e8-9cfe-4a3d61048da5" name="Changes" comment="" />
+      <created>1759835626897</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1758799561619</updated>
-      <workItem from="1758799562636" duration="1076000" />
-      <workItem from="1758884624345" duration="594000" />
-      <workItem from="1759137644029" duration="148000" />
-      <workItem from="1759306307362" duration="2039000" />
-      <workItem from="1759310442462" duration="43000" />
-      <workItem from="1759400138103" duration="4862000" />
-      <workItem from="1759483144090" duration="605000" />
-      <workItem from="1759486731896" duration="2044000" />
-      <workItem from="1759742373854" duration="33000" />
+      <updated>1759835626897</updated>
+      <workItem from="1759835627888" duration="2075000" />
     </task>
     <servers />
   </component>

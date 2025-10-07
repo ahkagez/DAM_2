@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9152b847-ac5e-4ce8-8f3d-0ee61443373a" name="Changes" comment="" />
+    <list default="true" id="207ae841-020f-4db8-8953-7f9d59b76033" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,16 +18,15 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="33BnvJY3YSvEN7ihyPINxf8MP4c" />
+  <component name="ProjectId" id="33VB1VuXVP9kazDL51sxX4WaQep" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -49,20 +48,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9152b847-ac5e-4ce8-8f3d-0ee61443373a" name="Changes" comment="" />
-      <created>1758799561619</created>
+      <changelist id="207ae841-020f-4db8-8953-7f9d59b76033" name="Changes" comment="" />
+      <created>1759392144249</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1758799561619</updated>
-      <workItem from="1758799562636" duration="1076000" />
-      <workItem from="1758884624345" duration="594000" />
-      <workItem from="1759137644029" duration="148000" />
-      <workItem from="1759306307362" duration="2039000" />
-      <workItem from="1759310442462" duration="43000" />
-      <workItem from="1759400138103" duration="4862000" />
-      <workItem from="1759483144090" duration="605000" />
-      <workItem from="1759486731896" duration="2044000" />
-      <workItem from="1759742373854" duration="33000" />
+      <updated>1759392144249</updated>
+      <workItem from="1759392145239" duration="2805000" />
+      <workItem from="1759400130325" duration="6000" />
+      <workItem from="1759742408014" duration="2205000" />
+      <workItem from="1759825486762" duration="616000" />
+      <workItem from="1759832084471" duration="1384000" />
     </task>
     <servers />
   </component>

@@ -3,4 +3,5 @@ public class PagoTarjeta implements MetodoPago{
     public String getTipoPago() {
         return "Tarjeta";
     }
+
 }

@@ -3,4 +3,5 @@ public class PagoEfectivo implements MetodoPago{
     public String getTipoPago() {
         return "Efectivo";
     }
+
 }

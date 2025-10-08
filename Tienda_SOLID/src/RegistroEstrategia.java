@@ -5,7 +5,10 @@ public class RegistroEstrategia {
     Impresora impresora;
 
 
-    public double procesarPago(){
+    public double procesarPago(MetodoPago metodoPago, Recibo recibo){
+        recibo.setMetodoPago(metodoPago.getTipoPago());
+        EstrategiaPago estrategiaPago = mapa.get(metodoPago.getClass());
 
+        return estrategiaPago.calcularImporte(recibo);
     }
 }

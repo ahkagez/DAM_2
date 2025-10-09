@@ -19,7 +19,7 @@ public class JAXB {
             Unmarshaller unmarshaller = context.createUnmarshaller();
             mamifers = (Mamifers) unmarshaller.unmarshal(file);
 
-            mamifers.mostrarMamifers(mamifers);
+            mamifers.mostrarMamifers();
 
             return 0;
         } catch (JAXBException e) {

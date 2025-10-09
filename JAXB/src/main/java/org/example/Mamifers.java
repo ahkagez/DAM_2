@@ -99,10 +99,10 @@ public class Mamifers {
         return this.mamifer;
     }
 
-    public void mostrarMamifers(Mamifers mamifers){
-        for (int i = 0; i < mamifers.getMamifer().size(); i++) {
-            Mamifer mamifer = mamifers.getMamifer().get(i);
-            System.out.println(mamifer);
+    public void mostrarMamifers(){
+        for (int i = 0; i < this.getMamifer().size(); i++) {
+            Mamifer mamifer = this.getMamifer().get(i);
+            mamifer.mostrarDatos();
         }
     }
 
@@ -277,7 +277,17 @@ public class Mamifers {
             this.perillExtincio = value;
         }
 
-
+        public void mostrarDatos() {
+            System.out.println(
+                    "Mamifer" + "\n" +
+                    " - Especie = " + especie + '\n' +
+                    " - NomComu = " + nomComu + '\n' +
+                    " - Dieta = " + dieta + '\n' +
+                    " - Habitat = " + habitat + '\n' +
+                    " - Perill Extincio = " + perillExtincio + '\n' +
+                    "=======================" + "\n"
+            );
+        }
     }
 
 }

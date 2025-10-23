@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<venue_data>
+    <venues>
+        <venue>
+            <artist_id>A001</artist_id>
+            <stage_name>Main Stage</stage_name>
+            <capacity>5000</capacity>
+            <tickets_sold>4200</tickets_sold>
+            <ticket_price>75.00</ticket_price>
+        </venue>
+        <venue>
+            <artist_id>A002</artist_id>
+            <stage_name>Jazz Tent</stage_name>
+            <capacity>800</capacity>
+            <tickets_sold>620</tickets_sold>
+            <ticket_price>45.00</ticket_price>
+        </venue>
+        <venue>
+            <artist_id>A003</artist_id>
+            <stage_name>Main Stage</stage_name>
+            <capacity>5000</capacity>
+            <tickets_sold>4950</tickets_sold>
+            <ticket_price>85.00</ticket_price>
+        </venue>
+        <venue>
+            <artist_id>A004</artist_id>
+            <stage_name>Indie Corner</stage_name>
+            <capacity>1200</capacity>
+            <tickets_sold>1150</tickets_sold>
+            <ticket_price>50.00</ticket_price>
+        </venue>
+        <venue>
+            <artist_id>A005</artist_id>
+            <stage_name>Main Stage</stage_name>
+            <capacity>5000</capacity>
+            <tickets_sold>4600</tickets_sold>
+            <ticket_price>80.00</ticket_price>
+        </venue>
+        <venue>
+            <artist_id>A006</artist_id>
+            <stage_name>Acoustic Garden</stage_name>
+            <capacity>600</capacity>
+            <tickets_sold>380</tickets_sold>
+            <ticket_price>35.00</ticket_price>
+        </venue>
+    </venues>
+</venue_data>

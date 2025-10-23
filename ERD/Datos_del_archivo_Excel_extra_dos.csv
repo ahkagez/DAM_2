@@ -1,0 +1,9 @@
+Name,Age,Salary,Department,Hire_Date
+Alice,28,"$50,000",HR,2023-01-15
+Bob,35,55000,Finance,2023/15/10
+Charlie,-40,"$1,000,000",IT,2022-11-20
+joHN DoE,42,"$75,000",N/A,Invalid
+Bob,35,55000,Finance,2023/15/10
+LuKy,50,"50,000",N/A,N/A
+MIke,47,"80,000",IT,2026/12/10
+PetEO,20,"$55,000",Marketing,2026/17/10

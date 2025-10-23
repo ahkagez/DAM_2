@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mamifers>
+  <mamifer perill_extincio="sí">
+    <especie>Loxodonta africana</especie>
+    <nom_comu>Elefant africà</nom_comu>
+    <dieta>Herbívor</dieta>
+    <habitat>habitat1</habitat>
+  </mamifer>
+
+  <mamifer perill_extincio="no">
+    <especie>Delphinus delphis</especie>
+    <nom_comu>Dofí d'aletes curtes</nom_comu>
+    <dieta>Carnívor</dieta>
+    <habitat>habitat2</habitat>
+  </mamifer>
+
+  <mamifer perill_extincio="sí">
+    <especie>Panthera tigris</especie>
+    <nom_comu>Tigre</nom_comu>
+    <dieta>Carnívor</dieta>
+    <habitat>habitat3</habitat>
+  </mamifer>
+</mamifers>

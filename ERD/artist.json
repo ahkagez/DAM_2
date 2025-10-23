@@ -1,0 +1,59 @@
+{
+  "festival": "Summer Music Fest 2026",
+  "performances": [
+    {
+      "artist_id": "A001",
+      "artist_name": "The Electric Waves",
+      "genre": "Electronic",
+      "day": "Friday",
+      "time": "20:00",
+      "duration_minutes": 90,
+      "popularity_score": 8.5
+    },
+    {
+      "artist_id": "A002",
+      "artist_name": "Jazz Collective",
+      "genre": "Jazz",
+      "day": "Friday",
+      "time": "18:00",
+      "duration_minutes": 60,
+      "popularity_score": 6.2
+    },
+    {
+      "artist_id": "A003",
+      "artist_name": "Rock Legends",
+      "genre": "Rock",
+      "day": "Saturday",
+      "time": "21:00",
+      "duration_minutes": 120,
+      "popularity_score": 9.8
+    },
+    {
+      "artist_id": "A004",
+      "artist_name": "Indie Dreams",
+      "genre": "Indie",
+      "day": "Saturday",
+      "time": "19:00",
+      "duration_minutes": 75,
+      "popularity_score": 7.8
+    },
+    {
+      "artist_id": "A005",
+      "artist_name": "Pop Stars United",
+      "genre": "Pop",
+      "day": "Sunday",
+      "time": "20:00",
+      "duration_minutes": 90,
+      "popularity_score": 9.2
+    },
+    {
+      "artist_id": "A006",
+      "artist_name": "Acoustic Souls",
+      "genre": "Acoustic",
+      "day": "Sunday",
+      "time": "17:00",
+      "duration_minutes": 60,
+      "popularity_score": 5.5
+    }
+  ]
+}
